@@ -95,3 +95,14 @@ footer>p{
     font-weight: normal;
     margin-left: 40px;
 }
+
+
+@media (max-width: 800px) {
+    .page{
+        width:80%;
+    }
+    .footer-grid{
+        grid-template-columns: 1fr;
+        width:50%;
+    }
+}
