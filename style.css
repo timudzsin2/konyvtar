@@ -61,6 +61,7 @@ h1{
 
 body{
     text-align:center;
+    background-color: black;
     background-image: url(images/wallpaper2.png);
     background-size: 100% auto;
 }
