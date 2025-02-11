@@ -96,12 +96,28 @@ footer>p{
 }
 
 
-@media (max-width: 705px) {
+@media (max-width: 750px) {
     .page{
         width:80%;
     }
     .footer-grid{
         grid-template-columns: 1fr;
         width:80%;
+    }
+}
+@media (max-width: 450px) {
+    h1{
+        font-size:40px;
+    }
+    .title-card{
+        margin:30px;
+        padding:12px;
+        letter-spacing: 3px;
+    }
+    .nev{
+        font-size:20px
+    }
+    .by{
+        margin:11px;
     }
 }
