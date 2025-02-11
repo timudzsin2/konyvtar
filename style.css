@@ -60,6 +60,7 @@ h1{
 
 body{
     text-align:center;
+    background-color: black;
     background-image: url(images/wallpaper2.png);
     background-size: 100% auto;
 }
@@ -79,30 +80,28 @@ footer>p{
 .footer-grid{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    width:30%;
+    width:40%;
     margin: auto;
-    text-align: left;
 }
 .footer-grid-entry{
-    margin:10px;
-    margin-left:50px;
+    margin:25px;
 }
 .job{
     font-size:20px;
+    text-align:left;
 }
 .name{
     font-size:20px;
     font-weight: normal;
-    margin-left: 40px;
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 705px) {
     .page{
         width:80%;
     }
     .footer-grid{
         grid-template-columns: 1fr;
-        width:50%;
+        width:80%;
     }
 }
